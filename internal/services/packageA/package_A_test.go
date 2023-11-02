@@ -2,7 +2,7 @@ package packagea
 
 import "testing"
 
-func TestHelloWorld_PackageA(t *testing.T) {
+func TestAcc_HelloWorld_PackageA(t *testing.T) {
 	want := "Hello from Package A"
 	got := HelloWorld_PackageA()
 	if want != got {
